@@ -1,0 +1,37 @@
+Using the diff or FC command to compare to files helped my making it convinient
+for me to compare to files and find the changes that were made between them.
+This reduced the effort required to compare both files line by line manually 
+and made error checking easier.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+in the long term when I am working on a file with thousands of lines of code and making
+constant changes and encounter a new bug which wasn't present in the older version of the file, an easy access to the entire history could help me retrieve an older
+version of the code file and help me revert back to a version which did not show the present problem and make it easier to pin point the error.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+You have full control of when the file should be saved and if there is a significant change in the file for it to be eligible for a commit command
+
+Cons:
+It adds to the labour of a programmer to always remember to commit the file after making a significant change and can distract from the actual work being done.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+while working on a project using git the files in on repository anr usually connected to each other and making a single small change may result in changes happening in every relative file, the saving of multiple files in a single commit helps track the relative changes made in the same time period , whereas google docs saves files independently and are mostly used for those king of file creations.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log: this command is used to view all the commits made with their own unique id's
+
+git diff: this command is used to compare to commits using their id's and see how many insertions and deletions were made between the 2.
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control gives the user confidence to play with the code without having to worry about breaking the program. using the command git checkout use can always go back to commit where the program was working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+for my next project i.e. to learn swift programming through udacity course.
+
