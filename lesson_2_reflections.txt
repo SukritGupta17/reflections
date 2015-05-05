@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when the command "git init" is executed the .git folder is created and the directory becomes a git repository , this command is needed so that the git recognizes it as a repository and the commit command can be used on it thereafter.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is temporary area where files can be added and worked upon before commiting, it offers the value of not changing the original file but still allowing to make changes until the commit command is used, command ussed to add file ti staging area "git add <filename>"
