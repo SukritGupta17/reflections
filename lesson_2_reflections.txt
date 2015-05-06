@@ -5,3 +5,29 @@ when the command "git init" is executed the .git folder is created and the direc
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area is temporary area where files can be added and worked upon before commiting, it offers the value of not changing the original file but still allowing to make changes until the commit command is used, command ussed to add file ti staging area "git add <filename>"
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+by using various git diff commands we can check what changes have been made and which ones need to be commited. Commands used "git diff" "git diff --staged"
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+if we want make experimental changes to our project but dont want to change the master file,  branches can help us do that.
+
+How do the diagrams help you visualize the branch structure?
+
+working on a project with a number of people could result in multiple branch creation annd keeping track of these branches can get tedious, making diagrams can help visualize these branch structure by showing us which branch child is realted to which branch parent and so on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+when we merge to branches together using the command "git merge branch1 branch2" the code or txt in the two branches merge into one and result into a single branch with the code from both the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros:
+helps save time and effort
+dont have to look at the code to find the changes made by each user
+
+cons:
+conflicts can occur from time to time
