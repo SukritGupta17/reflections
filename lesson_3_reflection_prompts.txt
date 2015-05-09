@@ -13,3 +13,19 @@ Describe the differences between forks, clones, and branches. When would you use
 forks are used when you want to clone a repository straight to git hub and leave a indication to where it was originally taken from.
 clones are used when you want to clone a repository to your local computer.
 branches are used to make changes that you dont want to show up in your master branch just yet.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ You can work offline, it saves a lot of data overhead when pushing changes to github and it gives the possibility to do a quick check which changes are made in the online repo compared to the offline repository.
+
+
+
+
+commands:
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
