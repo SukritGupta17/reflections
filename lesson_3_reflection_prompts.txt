@@ -18,7 +18,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
  You can work offline, it saves a lot of data overhead when pushing changes to github and it gives the possibility to do a quick check which changes are made in the online repo compared to the offline repository.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+collaborating remotely without using git or github would work using emails , uploading files on varions cloud services or using screen sharing. keeping a log of every change would be much harder and the productivity will be slow.
 
 
 commands:
